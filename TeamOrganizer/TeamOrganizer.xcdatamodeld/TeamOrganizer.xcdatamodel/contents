@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="16A323" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Event" representedClassName="Event" syncable="YES" codeGenerationType="class">
+        <attribute name="lat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Player" representedClassName=".Player" syncable="YES" codeGenerationType="class">
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="hasTeam" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Team" inverseName="hasPlayer" inverseEntity="Team" syncable="YES"/>
+    </entity>
+    <entity name="Team" representedClassName=".Team" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="hasPlayer" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Player" inverseName="hasTeam" inverseEntity="Player" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Event" positionX="-29" positionY="254" width="128" height="88"/>
+        <element name="Player" positionX="-36" positionY="45" width="135" height="88"/>
+        <element name="Team" positionX="-252" positionY="144" width="128" height="73"/>
+    </elements>
 </model>

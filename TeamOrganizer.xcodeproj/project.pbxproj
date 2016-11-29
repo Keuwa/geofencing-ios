@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF3A56421DEC6AD5002342C9 /* AddPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A56401DEC6AD5002342C9 /* AddPlayerViewController.swift */; };
+		BF3A56431DEC6AD5002342C9 /* AddPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3A56411DEC6AD5002342C9 /* AddPlayerViewController.xib */; };
+		BF3A564C1DED9374002342C9 /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A564A1DED9374002342C9 /* AddEventViewController.swift */; };
+		BF3A564D1DED9374002342C9 /* AddEventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3A564B1DED9374002342C9 /* AddEventViewController.xib */; };
+		BF8881051DE5C7C600BBAEDF /* PlayerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8881031DE5C7C600BBAEDF /* PlayerListViewController.swift */; };
+		BF8881061DE5C7C600BBAEDF /* PlayerListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF8881041DE5C7C600BBAEDF /* PlayerListViewController.xib */; };
+		BF88810D1DE5C80F00BBAEDF /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF88810B1DE5C80F00BBAEDF /* EventListViewController.swift */; };
+		BF88810E1DE5C80F00BBAEDF /* EventListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF88810C1DE5C80F00BBAEDF /* EventListViewController.xib */; };
+		BF8881191DE5FAA100BBAEDF /* TeamListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8881171DE5FAA100BBAEDF /* TeamListViewController.swift */; };
+		BF88811A1DE5FAA100BBAEDF /* TeamListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF8881181DE5FAA100BBAEDF /* TeamListViewController.xib */; };
 		BFBE2A8F1DDCB4420053AB18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBE2A8E1DDCB4420053AB18 /* AppDelegate.swift */; };
-		BFBE2A911DDCB4420053AB18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBE2A901DDCB4420053AB18 /* ViewController.swift */; };
-		BFBE2A941DDCB4420053AB18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBE2A921DDCB4420053AB18 /* Main.storyboard */; };
 		BFBE2A971DDCB4420053AB18 /* TeamOrganizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFBE2A951DDCB4420053AB18 /* TeamOrganizer.xcdatamodeld */; };
 		BFBE2A991DDCB4420053AB18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBE2A981DDCB4420053AB18 /* Assets.xcassets */; };
 		BFBE2A9C1DDCB4420053AB18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBE2A9A1DDCB4420053AB18 /* LaunchScreen.storyboard */; };
+		BFBE2AA51DDCB6CE0053AB18 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBE2AA31DDCB6CE0053AB18 /* MainViewController.swift */; };
+		BFBE2AA61DDCB6CE0053AB18 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFBE2AA41DDCB6CE0053AB18 /* MainViewController.xib */; };
+		BFBE2AA81DDCBC630053AB18 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBE2AA71DDCBC630053AB18 /* DataManager.swift */; };
+		BFBE2AAA1DDCBCFA0053AB18 /* FileManger+Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBE2AA91DDCBCFA0053AB18 /* FileManger+Document.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF3A56401DEC6AD5002342C9 /* AddPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPlayerViewController.swift; sourceTree = "<group>"; };
+		BF3A56411DEC6AD5002342C9 /* AddPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddPlayerViewController.xib; sourceTree = "<group>"; };
+		BF3A564A1DED9374002342C9 /* AddEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
+		BF3A564B1DED9374002342C9 /* AddEventViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddEventViewController.xib; sourceTree = "<group>"; };
+		BF8881031DE5C7C600BBAEDF /* PlayerListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerListViewController.swift; sourceTree = "<group>"; };
+		BF8881041DE5C7C600BBAEDF /* PlayerListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerListViewController.xib; sourceTree = "<group>"; };
+		BF88810B1DE5C80F00BBAEDF /* EventListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
+		BF88810C1DE5C80F00BBAEDF /* EventListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventListViewController.xib; sourceTree = "<group>"; };
+		BF8881171DE5FAA100BBAEDF /* TeamListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamListViewController.swift; sourceTree = "<group>"; };
+		BF8881181DE5FAA100BBAEDF /* TeamListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamListViewController.xib; sourceTree = "<group>"; };
 		BFBE2A8B1DDCB4420053AB18 /* TeamOrganizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamOrganizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBE2A8E1DDCB4420053AB18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFBE2A901DDCB4420053AB18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BFBE2A931DDCB4420053AB18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFBE2A961DDCB4420053AB18 /* TeamOrganizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TeamOrganizer.xcdatamodel; sourceTree = "<group>"; };
 		BFBE2A981DDCB4420053AB18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFBE2A9B1DDCB4420053AB18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFBE2A9D1DDCB4420053AB18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFBE2AA31DDCB6CE0053AB18 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
+		BFBE2AA41DDCB6CE0053AB18 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = ../MainViewController.xib; sourceTree = "<group>"; };
+		BFBE2AA71DDCBC630053AB18 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		BFBE2AA91DDCBCFA0053AB18 /* FileManger+Document.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManger+Document.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +61,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF3A563F1DEC6AB2002342C9 /* playerViews */ = {
+			isa = PBXGroup;
+			children = (
+				BF8881031DE5C7C600BBAEDF /* PlayerListViewController.swift */,
+				BF8881041DE5C7C600BBAEDF /* PlayerListViewController.xib */,
+				BF3A56401DEC6AD5002342C9 /* AddPlayerViewController.swift */,
+				BF3A56411DEC6AD5002342C9 /* AddPlayerViewController.xib */,
+			);
+			name = playerViews;
+			sourceTree = "<group>";
+		};
+		BF3A56441DEC82B0002342C9 /* teamViews */ = {
+			isa = PBXGroup;
+			children = (
+				BF8881171DE5FAA100BBAEDF /* TeamListViewController.swift */,
+				BF8881181DE5FAA100BBAEDF /* TeamListViewController.xib */,
+			);
+			name = teamViews;
+			sourceTree = "<group>";
+		};
+		BF3A56491DED9046002342C9 /* eventViews */ = {
+			isa = PBXGroup;
+			children = (
+				BF88810B1DE5C80F00BBAEDF /* EventListViewController.swift */,
+				BF88810C1DE5C80F00BBAEDF /* EventListViewController.xib */,
+				BF3A564A1DED9374002342C9 /* AddEventViewController.swift */,
+				BF3A564B1DED9374002342C9 /* AddEventViewController.xib */,
+			);
+			name = eventViews;
+			sourceTree = "<group>";
+		};
+		BF88811D1DE6F36300BBAEDF /* views */ = {
+			isa = PBXGroup;
+			children = (
+				BF3A56491DED9046002342C9 /* eventViews */,
+				BF3A56441DEC82B0002342C9 /* teamViews */,
+				BF3A563F1DEC6AB2002342C9 /* playerViews */,
+				BFBE2AA31DDCB6CE0053AB18 /* MainViewController.swift */,
+				BFBE2AA41DDCB6CE0053AB18 /* MainViewController.xib */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		BF88811E1DE6F3DA00BBAEDF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BFBE2AA71DDCBC630053AB18 /* DataManager.swift */,
+				BFBE2AA91DDCBCFA0053AB18 /* FileManger+Document.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 		BFBE2A821DDCB4420053AB18 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +132,9 @@
 		BFBE2A8D1DDCB4420053AB18 /* TeamOrganizer */ = {
 			isa = PBXGroup;
 			children = (
+				BF88811E1DE6F3DA00BBAEDF /* Data */,
+				BF88811D1DE6F36300BBAEDF /* views */,
 				BFBE2A8E1DDCB4420053AB18 /* AppDelegate.swift */,
-				BFBE2A901DDCB4420053AB18 /* ViewController.swift */,
-				BFBE2A921DDCB4420053AB18 /* Main.storyboard */,
 				BFBE2A981DDCB4420053AB18 /* Assets.xcassets */,
 				BFBE2A9A1DDCB4420053AB18 /* LaunchScreen.storyboard */,
 				BFBE2A9D1DDCB4420053AB18 /* Info.plist */,
@@ -94,7 +170,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = keuwa;
 				TargetAttributes = {
 					BFBE2A8A1DDCB4420053AB18 = {
@@ -126,9 +202,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF3A56431DEC6AD5002342C9 /* AddPlayerViewController.xib in Resources */,
 				BFBE2A9C1DDCB4420053AB18 /* LaunchScreen.storyboard in Resources */,
+				BF88811A1DE5FAA100BBAEDF /* TeamListViewController.xib in Resources */,
+				BF8881061DE5C7C600BBAEDF /* PlayerListViewController.xib in Resources */,
+				BF88810E1DE5C80F00BBAEDF /* EventListViewController.xib in Resources */,
+				BF3A564D1DED9374002342C9 /* AddEventViewController.xib in Resources */,
+				BFBE2AA61DDCB6CE0053AB18 /* MainViewController.xib in Resources */,
 				BFBE2A991DDCB4420053AB18 /* Assets.xcassets in Resources */,
-				BFBE2A941DDCB4420053AB18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +220,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFBE2A911DDCB4420053AB18 /* ViewController.swift in Sources */,
+				BFBE2AA51DDCB6CE0053AB18 /* MainViewController.swift in Sources */,
+				BF3A564C1DED9374002342C9 /* AddEventViewController.swift in Sources */,
+				BF8881191DE5FAA100BBAEDF /* TeamListViewController.swift in Sources */,
+				BF8881051DE5C7C600BBAEDF /* PlayerListViewController.swift in Sources */,
+				BFBE2AA81DDCBC630053AB18 /* DataManager.swift in Sources */,
+				BF3A56421DEC6AD5002342C9 /* AddPlayerViewController.swift in Sources */,
 				BFBE2A8F1DDCB4420053AB18 /* AppDelegate.swift in Sources */,
+				BF88810D1DE5C80F00BBAEDF /* EventListViewController.swift in Sources */,
+				BFBE2AAA1DDCBCFA0053AB18 /* FileManger+Document.swift in Sources */,
 				BFBE2A971DDCB4420053AB18 /* TeamOrganizer.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,14 +236,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BFBE2A921DDCB4420053AB18 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFBE2A931DDCB4420053AB18 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BFBE2A9A1DDCB4420053AB18 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -185,6 +265,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -235,6 +316,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -263,6 +345,7 @@
 		BFBE2AA11DDCB4420053AB18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TeamOrganizer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -275,6 +358,7 @@
 		BFBE2AA21DDCB4420053AB18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TeamOrganizer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -303,6 +387,7 @@
 				BFBE2AA21DDCB4420053AB18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

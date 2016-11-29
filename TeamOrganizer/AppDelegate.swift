@@ -16,8 +16,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
+        
+        print(FileManager.documentUrl())
+
+            window = UIWindow(frame: UIScreen.main.bounds)
+        
+            let tabBarController = UITabBarController()
+            let myVC1 = TeamListViewController(nibName: "TeamListViewController", bundle: nil)
+            let myVC2 = PlayerListViewController(nibName: "PlayerListViewController", bundle: nil)
+            let myVC3 = EventListViewController(nibName: "EventListViewController", bundle: nil)
+        
+            let navBar1 = UINavigationController(rootViewController: myVC1)
+            let navBar2 = UINavigationController(rootViewController: myVC2)
+            let navBar3 = UINavigationController(rootViewController: myVC3)
+        
+        
+            myVC1.tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.contacts, tag: 1)
+            myVC2.tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.featured, tag: 2)
+            myVC3.tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.bookmarks, tag: 3)
+        
+        
+            let controllers = [navBar1,navBar2,navBar3]
+            tabBarController.viewControllers = controllers
+        
+            window?.rootViewController = tabBarController
+            window?.makeKeyAndVisible()
+
+
+            
+            return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
