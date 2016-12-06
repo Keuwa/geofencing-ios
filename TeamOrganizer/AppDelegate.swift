@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        print(FileManager.documentUrl())
+        //print(FileManager.documentUrl())
 
             window = UIWindow(frame: UIScreen.main.bounds)
         
@@ -30,10 +30,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let navBar2 = UINavigationController(rootViewController: myVC2)
             let navBar3 = UINavigationController(rootViewController: myVC3)
         
-        
-            myVC1.tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.contacts, tag: 1)
-            myVC2.tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.featured, tag: 2)
-            myVC3.tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.bookmarks, tag: 3)
+            myVC1.tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.featured, tag: 1)
+            myVC2.tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.contacts, tag: 2)
+            myVC3.tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.history ,  tag: 3)
         
         
             let controllers = [navBar1,navBar2,navBar3]

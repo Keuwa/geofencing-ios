@@ -36,6 +36,8 @@ class AddPlayerViewController: UIViewController, UIPickerViewDelegate, UIPickerV
         pickerView.dataSource = self
         pickerView.delegate = self
         initTable()
+        self.title = "Ajouter un joueur"
+
         // Do any additional setup after loading the view.
     }
 

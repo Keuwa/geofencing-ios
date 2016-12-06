@@ -24,6 +24,8 @@ class PlayerListViewController: UIViewController, UITableViewDataSource,UITableV
         let button = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.add, target: self, action: #selector(addTapped))
 
         self.navigationItem.rightBarButtonItem = button;
+        self.title = "Joueurs"
+
         
         playerTableView.delegate = self
         playerTableView.dataSource = self

@@ -7,14 +7,19 @@
 //
 
 import UIKit
+import CoreLocation
 
 class MainViewController: UIViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+        // Ask for Authorisation from the User.
+        
 
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

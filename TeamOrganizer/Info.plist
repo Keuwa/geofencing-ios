@@ -32,6 +32,14 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>LSApplicationCategoryType</key>
+	<array>
+		<string>en</string>
+	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Bonjour</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Bonjou</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

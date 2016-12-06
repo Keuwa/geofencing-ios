@@ -11,12 +11,19 @@
 		BF3A56431DEC6AD5002342C9 /* AddPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3A56411DEC6AD5002342C9 /* AddPlayerViewController.xib */; };
 		BF3A564C1DED9374002342C9 /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A564A1DED9374002342C9 /* AddEventViewController.swift */; };
 		BF3A564D1DED9374002342C9 /* AddEventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3A564B1DED9374002342C9 /* AddEventViewController.xib */; };
+		BF3A56501DEDBA00002342C9 /* ManageTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A564E1DEDBA00002342C9 /* ManageTeamViewController.swift */; };
+		BF3A56511DEDBA00002342C9 /* ManageTeamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3A564F1DEDBA00002342C9 /* ManageTeamViewController.xib */; };
+		BF3A56541DEDD6F7002342C9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3A56531DEDD6F7002342C9 /* MapKit.framework */; };
+		BF3A56571DF0857C002342C9 /* AddEventToTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A56551DF0857C002342C9 /* AddEventToTeamViewController.swift */; };
+		BF3A56581DF0857C002342C9 /* AddEventToTeamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3A56561DF0857C002342C9 /* AddEventToTeamViewController.xib */; };
 		BF8881051DE5C7C600BBAEDF /* PlayerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8881031DE5C7C600BBAEDF /* PlayerListViewController.swift */; };
 		BF8881061DE5C7C600BBAEDF /* PlayerListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF8881041DE5C7C600BBAEDF /* PlayerListViewController.xib */; };
 		BF88810D1DE5C80F00BBAEDF /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF88810B1DE5C80F00BBAEDF /* EventListViewController.swift */; };
 		BF88810E1DE5C80F00BBAEDF /* EventListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF88810C1DE5C80F00BBAEDF /* EventListViewController.xib */; };
 		BF8881191DE5FAA100BBAEDF /* TeamListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8881171DE5FAA100BBAEDF /* TeamListViewController.swift */; };
 		BF88811A1DE5FAA100BBAEDF /* TeamListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF8881181DE5FAA100BBAEDF /* TeamListViewController.xib */; };
+		BFAB841A1DF779BE00153E4B /* AddPlayerToTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB84181DF779BE00153E4B /* AddPlayerToTeamViewController.swift */; };
+		BFAB841B1DF779BE00153E4B /* AddPlayerToTeamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFAB84191DF779BE00153E4B /* AddPlayerToTeamViewController.xib */; };
 		BFBE2A8F1DDCB4420053AB18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBE2A8E1DDCB4420053AB18 /* AppDelegate.swift */; };
 		BFBE2A971DDCB4420053AB18 /* TeamOrganizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFBE2A951DDCB4420053AB18 /* TeamOrganizer.xcdatamodeld */; };
 		BFBE2A991DDCB4420053AB18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBE2A981DDCB4420053AB18 /* Assets.xcassets */; };
@@ -32,12 +39,19 @@
 		BF3A56411DEC6AD5002342C9 /* AddPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddPlayerViewController.xib; sourceTree = "<group>"; };
 		BF3A564A1DED9374002342C9 /* AddEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
 		BF3A564B1DED9374002342C9 /* AddEventViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddEventViewController.xib; sourceTree = "<group>"; };
+		BF3A564E1DEDBA00002342C9 /* ManageTeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageTeamViewController.swift; sourceTree = "<group>"; };
+		BF3A564F1DEDBA00002342C9 /* ManageTeamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ManageTeamViewController.xib; sourceTree = "<group>"; };
+		BF3A56531DEDD6F7002342C9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BF3A56551DF0857C002342C9 /* AddEventToTeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEventToTeamViewController.swift; sourceTree = "<group>"; };
+		BF3A56561DF0857C002342C9 /* AddEventToTeamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddEventToTeamViewController.xib; sourceTree = "<group>"; };
 		BF8881031DE5C7C600BBAEDF /* PlayerListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerListViewController.swift; sourceTree = "<group>"; };
 		BF8881041DE5C7C600BBAEDF /* PlayerListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerListViewController.xib; sourceTree = "<group>"; };
 		BF88810B1DE5C80F00BBAEDF /* EventListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
 		BF88810C1DE5C80F00BBAEDF /* EventListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventListViewController.xib; sourceTree = "<group>"; };
 		BF8881171DE5FAA100BBAEDF /* TeamListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamListViewController.swift; sourceTree = "<group>"; };
 		BF8881181DE5FAA100BBAEDF /* TeamListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamListViewController.xib; sourceTree = "<group>"; };
+		BFAB84181DF779BE00153E4B /* AddPlayerToTeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPlayerToTeamViewController.swift; sourceTree = "<group>"; };
+		BFAB84191DF779BE00153E4B /* AddPlayerToTeamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddPlayerToTeamViewController.xib; sourceTree = "<group>"; };
 		BFBE2A8B1DDCB4420053AB18 /* TeamOrganizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamOrganizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBE2A8E1DDCB4420053AB18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFBE2A961DDCB4420053AB18 /* TeamOrganizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TeamOrganizer.xcdatamodel; sourceTree = "<group>"; };
@@ -55,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF3A56541DEDD6F7002342C9 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +92,12 @@
 			children = (
 				BF8881171DE5FAA100BBAEDF /* TeamListViewController.swift */,
 				BF8881181DE5FAA100BBAEDF /* TeamListViewController.xib */,
+				BF3A564E1DEDBA00002342C9 /* ManageTeamViewController.swift */,
+				BF3A564F1DEDBA00002342C9 /* ManageTeamViewController.xib */,
+				BF3A56551DF0857C002342C9 /* AddEventToTeamViewController.swift */,
+				BF3A56561DF0857C002342C9 /* AddEventToTeamViewController.xib */,
+				BFAB84181DF779BE00153E4B /* AddPlayerToTeamViewController.swift */,
+				BFAB84191DF779BE00153E4B /* AddPlayerToTeamViewController.xib */,
 			);
 			name = teamViews;
 			sourceTree = "<group>";
@@ -90,6 +111,14 @@
 				BF3A564B1DED9374002342C9 /* AddEventViewController.xib */,
 			);
 			name = eventViews;
+			sourceTree = "<group>";
+		};
+		BF3A56521DEDD6F7002342C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF3A56531DEDD6F7002342C9 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BF88811D1DE6F36300BBAEDF /* views */ = {
@@ -118,6 +147,7 @@
 			children = (
 				BFBE2A8D1DDCB4420053AB18 /* TeamOrganizer */,
 				BFBE2A8C1DDCB4420053AB18 /* Products */,
+				BF3A56521DEDD6F7002342C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -176,6 +206,11 @@
 					BFBE2A8A1DDCB4420053AB18 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -202,6 +237,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF3A56581DF0857C002342C9 /* AddEventToTeamViewController.xib in Resources */,
+				BF3A56511DEDBA00002342C9 /* ManageTeamViewController.xib in Resources */,
 				BF3A56431DEC6AD5002342C9 /* AddPlayerViewController.xib in Resources */,
 				BFBE2A9C1DDCB4420053AB18 /* LaunchScreen.storyboard in Resources */,
 				BF88811A1DE5FAA100BBAEDF /* TeamListViewController.xib in Resources */,
@@ -209,6 +246,7 @@
 				BF88810E1DE5C80F00BBAEDF /* EventListViewController.xib in Resources */,
 				BF3A564D1DED9374002342C9 /* AddEventViewController.xib in Resources */,
 				BFBE2AA61DDCB6CE0053AB18 /* MainViewController.xib in Resources */,
+				BFAB841B1DF779BE00153E4B /* AddPlayerToTeamViewController.xib in Resources */,
 				BFBE2A991DDCB4420053AB18 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,13 +261,16 @@
 				BFBE2AA51DDCB6CE0053AB18 /* MainViewController.swift in Sources */,
 				BF3A564C1DED9374002342C9 /* AddEventViewController.swift in Sources */,
 				BF8881191DE5FAA100BBAEDF /* TeamListViewController.swift in Sources */,
+				BFAB841A1DF779BE00153E4B /* AddPlayerToTeamViewController.swift in Sources */,
 				BF8881051DE5C7C600BBAEDF /* PlayerListViewController.swift in Sources */,
 				BFBE2AA81DDCBC630053AB18 /* DataManager.swift in Sources */,
 				BF3A56421DEC6AD5002342C9 /* AddPlayerViewController.swift in Sources */,
 				BFBE2A8F1DDCB4420053AB18 /* AppDelegate.swift in Sources */,
 				BF88810D1DE5C80F00BBAEDF /* EventListViewController.swift in Sources */,
 				BFBE2AAA1DDCBCFA0053AB18 /* FileManger+Document.swift in Sources */,
+				BF3A56571DF0857C002342C9 /* AddEventToTeamViewController.swift in Sources */,
 				BFBE2A971DDCB4420053AB18 /* TeamOrganizer.xcdatamodeld in Sources */,
+				BF3A56501DEDBA00002342C9 /* ManageTeamViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

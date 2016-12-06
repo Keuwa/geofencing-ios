@@ -24,6 +24,7 @@ class EventListViewController: UIViewController,UITableViewDataSource,UITableVie
         let button = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.add, target: self, action: #selector(addTapped))
         
         self.navigationItem.rightBarButtonItem = button;
+        self.title = "Événements"
         
         eventTableView.delegate = self
         eventTableView.dataSource = self
@@ -70,20 +71,11 @@ class EventListViewController: UIViewController,UITableViewDataSource,UITableVie
     
     func addTapped() -> Void {
         
-        let vc = AddPlayerViewController(nibName: "AddEventViewController", bundle: nil)
+        let vc = AddEventViewController(nibName: "AddEventViewController", bundle: nil)
         self.navigationController?.pushViewController(vc, animated: true)
-        
-        /*if let context = DataManager.shared.objectContext {
-         
-         let player = Player(context: context)
-         player.age = 22
-         player.name = "Salut"
-         
-         try? context.save()
-         playerArray.append(player)
-         playerTableView.reloadData()
-         }*/
+
     }
+    
     func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
         return true
     }
