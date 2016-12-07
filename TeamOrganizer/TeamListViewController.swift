@@ -35,7 +35,6 @@ class TeamListViewController: UIViewController, UITableViewDataSource, UITableVi
         self.title = "Équipes"
 
         self.locationManager.requestAlwaysAuthorization()
-        
         // For use in foreground
         self.locationManager.requestWhenInUseAuthorization()
         
@@ -46,7 +45,8 @@ class TeamListViewController: UIViewController, UITableViewDataSource, UITableVi
         }
         teamTableView.delegate = self
         teamTableView.dataSource = self
-        
+
+
         // Do any additional setup after loading the view.
     
     }
@@ -206,7 +206,7 @@ class TeamListViewController: UIViewController, UITableViewDataSource, UITableVi
     func monitorRegion() {
         for region in regionArray{
             locationManager.startMonitoring(for: region)
-            print(locationManager.monitoredRegions)
+            //print(locationManager.monitoredRegions)
         }
     }
     

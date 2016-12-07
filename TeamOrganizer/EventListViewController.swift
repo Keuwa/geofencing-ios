@@ -29,13 +29,10 @@ class EventListViewController: UIViewController,UITableViewDataSource,UITableVie
         eventTableView.delegate = self
         eventTableView.dataSource = self
         
-        // Do any additional setup after loading the view.
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func initTable(){
@@ -62,10 +59,8 @@ class EventListViewController: UIViewController,UITableViewDataSource,UITableVie
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier)
             ?? UITableViewCell(style: .subtitle, reuseIdentifier: cellIdentifier)
         
-        // Adding the right informations
         cell.textLabel?.text = self.eventArray[indexPath.row].name;
         
-        // Returning the cell
         return cell
     }
     
@@ -82,7 +77,7 @@ class EventListViewController: UIViewController,UITableViewDataSource,UITableVie
     
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if (editingStyle == UITableViewCellEditingStyle.delete) {
-            // handle delete (by removing the data from your array and updating the tableview)
+            
             deleteEvent(event: eventArray[indexPath.row])
             eventArray.remove(at: indexPath.row)
             tableView.reloadData()
